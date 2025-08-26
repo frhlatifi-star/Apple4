@@ -163,3 +163,4 @@ if st.button("دانلود Excel داشبورد کامل"):
         if 'df_future' in locals() and not df_future.empty:
             df_future.to_excel(writer, sheet_name="پیش‌بینی رشد", index=False)
     st.success("✅ گزارش آماده شد: apple_dashboard_full.xlsx")
+    streamlit run app.py
